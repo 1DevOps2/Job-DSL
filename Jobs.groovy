@@ -12,7 +12,7 @@ pipelineJob('Configuring-GitHub') {
   						scm('H/5 * * * *')    
 						}
             }
-            scriptPath('MyJenkinsfiles/Jenkinsfile')
+            scriptPath('Jenkinsfile')
         }
     }
 }
