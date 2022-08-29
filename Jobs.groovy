@@ -1,4 +1,4 @@
-pipelineJob('Jenkins-File') {
+pipelineJob('Configuring-GitHub') {
     definition {
         cpsScm {
             scm {
@@ -17,7 +17,7 @@ pipelineJob('Jenkins-File') {
     }
 }
 
-pipelineJob('Jenkins-File') {
+pipelineJob('Print-Words') {
     definition {
         cpsScm {
             scm {
