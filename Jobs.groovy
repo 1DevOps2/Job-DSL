@@ -9,7 +9,7 @@ pipelineJob('Configuring-GitHub') {
                   branch('*/main')
                 }
               triggers {          
-  						scm('H/5 * * * *')    
+  						scm('* * * * *')    
 						}
             }
             scriptPath('Jenkinsfile')
